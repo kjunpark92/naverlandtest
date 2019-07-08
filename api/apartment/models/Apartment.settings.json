@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "apartment",
+  "info": {
+    "name": "apartment",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "세대수": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "commons": {
+      "collection": "common",
+      "via": "apartments"
+    }
+  }
+}

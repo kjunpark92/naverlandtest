@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "villaapartments",
+  "info": {
+    "name": "common",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "size": {
+      "type": "string",
+      "unique": true
+    },
+    "price": {
+      "type": "string",
+      "unique": true
+    },
+    "typeOfTransaction": {
+      "type": "string",
+      "unique": true
+    },
+    "apartments": {
+      "collection": "apartment",
+      "via": "commons",
+      "dominant": true
+    },
+    "villas": {
+      "collection": "villa",
+      "via": "commons",
+      "dominant": true
+    },
+    "onetworooms": {
+      "collection": "onetworoom",
+      "via": "commons",
+      "dominant": true
+    }
+  }
+}

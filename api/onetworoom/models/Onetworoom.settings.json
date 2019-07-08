@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "onetworoom",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "oneRoomOrTwoRoom": {
+      "type": "string"
+    },
+    "commons": {
+      "collection": "common",
+      "via": "onetworooms"
+    }
+  }
+}

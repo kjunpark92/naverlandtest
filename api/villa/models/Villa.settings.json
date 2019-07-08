@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "villa",
+  "info": {
+    "name": "villa",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "방향": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "commons": {
+      "collection": "common",
+      "via": "villas"
+    }
+  }
+}

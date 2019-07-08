@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/onetworooms",
+      "handler": "Onetworoom.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onetworooms/count",
+      "handler": "Onetworoom.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/onetworooms/:_id",
+      "handler": "Onetworoom.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/onetworooms",
+      "handler": "Onetworoom.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/onetworooms/:_id",
+      "handler": "Onetworoom.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/onetworooms/:_id",
+      "handler": "Onetworoom.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

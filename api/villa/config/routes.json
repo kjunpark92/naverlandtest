@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/villas",
+      "handler": "Villa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/villas/count",
+      "handler": "Villa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/villas/:_id",
+      "handler": "Villa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/villas",
+      "handler": "Villa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/villas/:_id",
+      "handler": "Villa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/villas/:_id",
+      "handler": "Villa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
